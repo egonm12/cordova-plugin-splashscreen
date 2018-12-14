@@ -30,4 +30,8 @@ var splashscreen = {
     }
 };
 
+window.setTimeout(function () {
+    navigator.splashscreen.hide();
+}, 1000);
+
 module.exports = splashscreen;
